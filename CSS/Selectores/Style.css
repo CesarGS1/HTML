@@ -1,0 +1,120 @@
+/*
+*{  /* Modifica todo el estilo del archivo .html (Selector Universal) 
+    font-size: 50px;
+    color: hotpink;
+}
+*/
+
+/* Selector de etiqueta */
+
+/*
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+h1{
+    background-color: violet;
+    color: black;
+}
+
+p{
+    text-align: center;
+}
+*/
+
+
+/* Selector de etiquets multiples */
+
+/*
+h1, h3, h5, p{
+    color: red;
+    background-color: black;
+}
+*/
+
+
+/* Selectores ID y Class*/
+
+/*
+p.parrafo{
+    color: wheat;
+    font-size: 48px;
+    background-color: black;
+}
+
+.parrafo2{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+}
+
+a.parrafo{
+    color: wheat;
+    font-size: 48px;
+    background-color: black;
+}
+
+#identificacion{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+}
+*/
+
+
+
+/* Selector Desendente */
+
+/*
+p a{
+    background-color: green;
+}
+*/
+
+
+
+/* Selector Hijo */
+
+/*
+h1 > a{
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+
+h1 > p > a{
+    color: firebrick;
+    font-size: 72px;
+}
+*/
+
+
+
+/* Selector Adyacente */
+
+/* Al primer elemento mas cercano a h2 (que es h3) se le aplica el siguinte estilo */
+/*
+h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+
+
+/* Selector de Atributo */
+
+/*
+[class]{
+    color: red;
+    font-size: 48px;
+    background-color: rosybrown;
+}
+*/
+
+[class = "parrafo"]{
+    color: seagreen;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+/* Cascada */
+
+/*   
+p{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+main{ 
+    background-color: green;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: yellow;
+}
+
+main{
+    background-color: yellowgreen;
+}
+
+body{
+    background-color: white;
+}
+*/
+
+
+/* Herencia */
+
+/* 
+p{
+    color: black;
+    background-color: yellow;
+}
+
+a{
+    color: inherit; /* Comando para heredar y cambiar el color de la referencia 
+}
+*/
+
+
+/* Especifidad */
+
+
+#identificador{
+    color: orange;
+}
+
+.clase{
+    color: lawngreen;
+}
+
+p{
+    color: lightcoral !important;   /* Important tiene una mayor prelación (predomina), luego la tiene style (valor 100), luego el ID (valor 100) y luego class (valor 10) */
+}
